@@ -5,6 +5,10 @@ import reportWebVitals from "./reportWebVitals";
 import { ChakraProvider } from "@chakra-ui/react";
 import theme from "./theme";
 import "@fontsource/asap/700.css";
+import ReactGA from "react-ga4";
+
+ReactGA.initialize("G-G26WL6GQVT");
+ReactGA.send("pageview");
 
 ReactDOM.render(
   <React.StrictMode>
